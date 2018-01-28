@@ -18,7 +18,7 @@ docker_run: docker_build
 	-p 5000:5000 \
 	-d hello-world-printer
 UDERNAME=masteratom
-TAG=$(USERNAME)/hello-world-printer
+TAG=$(USERNAME)/hello-world-printer-dev
 docker_push: docker_build
 	@docker login --username $(USERNAME) --password $${DOCKER_PASSWORD}; \
 	docker tag hellow-world-printer $(TAG); \
