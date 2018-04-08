@@ -89,7 +89,7 @@ Testy
 .. image:: https://travis-ci.org/Masteratom/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/Masteratom/se_hello_printer_app
 
-.. image:: https://www.statuscake.com" title="Website Uptime Monitoring"
-    :target: https://app.statuscake.com/button/index.php
+.. image:: https://app.statuscake.com/button/index.php?Track=C2rWoaWsWL&Days=1&Design=1
+    :target: https://www.statuscake.com" title="Website Uptime Monitoring
     
     <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=C2rWoaWsWL&Days=1&Design=1" /></a>
