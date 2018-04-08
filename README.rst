@@ -86,4 +86,5 @@ Materiały
 Testy
 =========
 
-https://travis-ci.org/Masteratom/se_hello_printer_app.svg?branch=master
+.. image:: https://travis-ci.org/Masteratom/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/Masteratom/se_hello_printer_app
