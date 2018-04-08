@@ -7,9 +7,9 @@ lint:
 run:
 	python main.py
 test:
-	test_cov
-	test_xunit
+test_cov:
 	PYTHONPATH=. py.test
+test_xunit:
 	PYTHONPATH=. py.test  --verbose -s
 	
 docker_build:
