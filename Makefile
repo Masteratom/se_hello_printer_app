@@ -7,10 +7,11 @@ lint:
 run:
 	python main.py
 test:
-	PYTHONPATH=. py.test
-	PYTHONPATH=. py.test  --verbose -s
 	test_cov
 	test_xunit
+	PYTHONPATH=. py.test
+	PYTHONPATH=. py.test  --verbose -s
+	
 docker_build:
 	docker build -t hello-world-printer .
 
