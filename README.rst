@@ -82,3 +82,8 @@ Materiały
 =========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
+
+Testy
+=========
+
+https://travis-ci.org/Masteratom/se_hello_printer_app.svg?branch=master
