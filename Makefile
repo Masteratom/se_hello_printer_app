@@ -6,10 +6,13 @@ lint:
 	flake8 hello_word test
 run:
 	python main.py
-test:
+
 test_cov:
-	PYTHONPATH=. py.test
+	PYTHONPATH=. py.test --verbose -s --cov=.
 test_xunit:
+	PYTHONPATH=. py.test -s --cov=. --junit-xml=test_results.xml
+test:
+	PYTHONPATH=. py.test
 	PYTHONPATH=. py.test  --verbose -s
 	
 docker_build:
